@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>ABLLS-R | Mostafa Ahmed</title>
+<title>ABLLS-R | SALIHI AICHA  SALLE DE RESSOURCES TARIK BEN ZIAD </title>
 <style>
 :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#f6f7fb;--card:#fff;--tx:#1d2433;--mu:#667085;--br:#e2e6ef;--pr:#2f5bea;--pb:#e8eeff;--ok:#16a34a;--wa:#d97706;--bd:#dc2626}
 @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10141f;--card:#1a2030;--tx:#e8ecf5;--mu:#98a2b8;--br:#2c3550;--pr:#7c9bff;--pb:#232d4d;--ok:#4ade80;--wa:#fbbf24;--bd:#f87171}}
@@ -37,7 +37,7 @@ table{width:100%;border-collapse:collapse;font-size:14px}td,th{padding:7px 6px;b
 .gl ul{margin:4px 0;padding-right:18px}.hide{display:none}
 @media print{header,.chips,.noprint,.sc{display:none}body{background:#fff;color:#000}.card{break-inside:avoid;border-color:#ccc}}
 </style></head><body>
-<header><h1>ABLLS-R <small>تقييم المهارات الأساسية للغة والتعلم — Mostafa Ahmed</small></h1>
+<header><h1>ABLLS-R <small>تقييم المهارات الأساسية للغة والتعلم —المشرفة على القاعة: عائشة صاليحي  مدرسة طارق بن زياد أيت باها </small></h1>
 <nav><button data-t="case" class="on">دراسة الحالة</button><button data-t="assess">التقييم</button><button data-t="res">النتائج والأهداف</button></nav></header>
 <main>
 <section id="case"><div class="card"><h2>بيانات الطفل</h2><div class="grid" id="cf"></div></div>
@@ -76,8 +76,8 @@ X:["جدول زمني ثابت لدخول الحمام مع صور لخطوات 
 Y:["مسار حركي (قفز، زحف، تسلق) ولعب بالكرة.","ألعاب توازن (مشي على خط، وقوف على رجل).","أنشطة ركض وقفز بإيقاع وموسيقى."],
 Z:["عجين وصلصال وخرز وقص ولصق.","تلوين وتتبع ورسم أشكال بأدوات مختلفة.","فتح وغلق علب وأغطية ومفاتيح وأزرار."]};
 const $=s=>document.querySelector(s);
-const CF=[["name","اسم الطفل"],["dob","تاريخ الميلاد","date"],["ad","تاريخ التقييم","date"],["sex","النوع"],["diag","التشخيص (إن وجد)"],["inf","المُجيب (الأم/الأب)"],["sch","المدرسة/الحضانة"]];
-const CF2=[["comp","الشكوى الرئيسية / سبب التقييم"],["fam","الأسرة والبيئة"],["med","التاريخ الطبي والنمائي"],["str","نقاط القوة"],["int","اهتمامات الطفل والمعززات"],["beh","سلوكيات تحتاج متابعة"],["prev","التدخلات السابقة"],["note","ملاحظات أخرى"]];
+const CF=[["name","اسم الطفل"],["dob","تاريخ الميلاد","date"],["ad","تاريخ التقييم","date"],["sex","النوع"],["diag","التشخيص (إن وجد)"],["inf","اسم ولي الأمر: (الأم/الأب)"],["sch"المدرسة/"]];
+const CF2=[["comp","نوع الاعاقة"],["fam","الأسرة والبيئة"],["med","التاريخ الطبي والنمائي"],["str","نقاط القوة"],["int","اهتمامات الطفل والمعززات"],["beh","سلوكيات تحتاج متابعة"],["prev","التدخلات السابقة"],["note","ملاحظات أخرى"]];
 let S={},C={},P={};
 try{S=JSON.parse(localStorage.getItem("ablls_s")||"{}");P=JSON.parse(localStorage.getItem("ablls_p")||"{}");C=JSON.parse(localStorage.getItem("ablls_c")||"{}")}catch(e){}
 const save=()=>{try{localStorage.setItem("ablls_s",JSON.stringify(S));localStorage.setItem("ablls_p",JSON.stringify(P));localStorage.setItem("ablls_c",JSON.stringify(C))}catch(e){}};
